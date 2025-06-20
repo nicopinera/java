@@ -12,5 +12,15 @@ public class HolaMundo {
         * varias
         * lineas
         * */
+        
+        // \n para hacer un salto de linea
+        System.out.println("Hola \nMundo");
+        
+        System.out.println("Mi edad es: " + 22);
+        System.out.println("Mi color favorito es el rojo");
+        System.out.println("Vivo en Cordoba Argentina");
+
+        
+        
     }
 }
