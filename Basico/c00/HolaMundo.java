@@ -1,12 +1,20 @@
 package c00;
 // Todo se encapsula dentro de una clase
+// Nombramiento: CamelCase para el nombre de las clases
 public class HolaMundo {
+
+/*
+ * public: modificador de acceso
+ * static: se puede ejecutar sin crear una instancia de la clase
+ * void: no devuelve nada la funcion
+ */
 
     // El método main es el punto de entrada de la aplicación
     public static void main(String[] args) {
-        System.out.println("Hola Mundo"); //Mostrar por pantalla
-        // Comentario de una sola linea
+        //Mostrar por pantalla
+        System.out.println("Hola Mundo");
 
+        // Comentario de una sola linea
 
         /*Comentario
         * de
@@ -20,8 +28,5 @@ public class HolaMundo {
         System.out.println("Mi edad es: " + 22);
         System.out.println("Mi color favorito es el rojo");
         System.out.println("Vivo en Cordoba Argentina");
-
-        
-        
     }
 }
