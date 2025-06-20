@@ -1,3 +1,4 @@
+package c00;
 // Todo se encapsula dentro de una clase
 public class HolaMundo {
 
