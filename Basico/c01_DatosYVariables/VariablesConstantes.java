@@ -1,4 +1,4 @@
-package c01;
+package c01_DatosYVariables;
 
 public class VariablesConstantes {
     // Funcion Principal

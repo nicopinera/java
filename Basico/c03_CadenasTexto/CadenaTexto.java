@@ -1,4 +1,4 @@
-package c03;
+package c03_CadenasTexto;
 
 public class CadenaTexto {
     public static void main(String[] args){
