@@ -58,6 +58,20 @@ public class CadenaTexto {
         // Remplazar caracteres especificos
         System.out.println(" Hola, me llamo Dios ".replace(" ","@"));
         System.out.println("Programa terminado");
-        // 32:39
+        
+        // Format
+        var edad = 22;
+        // %s para string - %d para numeros - %f para float
+        String.format("Hola, %s. tengo %d.",nombre,edad);
+
+        // -----------
+        String cadena1 = "Hola";
+        String cadena2 = "Chau";
+        String cadena3 = cadena1 + " - " + cadena2; // Concatenacion
+        var longitudCadena3 = cadena3.length(); // Longitud
+        System.out.println(cadena3.charAt(0)); // Primer caracter
+        System.out.println(cadena3.charAt(longitudCadena3-1)); // ultimo Caracter
+        System.out.println(cadena3.toLowerCase());  //Minusculas
+        System.out.println(cadena3.toUpperCase());  // Mayusculas
     }
 }
