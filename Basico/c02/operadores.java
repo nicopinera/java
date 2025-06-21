@@ -1,4 +1,4 @@
-package c01;
+package c02;
 
 public class operadores {
     /*
