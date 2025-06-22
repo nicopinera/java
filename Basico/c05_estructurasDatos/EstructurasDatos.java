@@ -17,10 +17,18 @@ public class EstructurasDatos {
         System.out.println(nombres[0]); // Acceso
         System.out.println(nombres[1]);
         System.out.println(nombres[2]);
+        System.out.println((new String[3])[2]);
 
         // Modificacion
+        numero[0] = 12;
+        numero[1] = 15;
+        System.err.println(numero[0]);
+        System.out.println(numero[1]);
+        
+        // Limpieza
+        numero[0] = 0;
+        nombres[0] = null;
 
-        //1:22:00
     }
 
 }
